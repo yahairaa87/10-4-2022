@@ -30,6 +30,10 @@ def loop():
   while coins < 40:
     print(f"I have {coins} coins")
     coins += 1
+
+  answer = "y"
+  while answer == "y":
+    answer = input 
   ###################################loops intro######################################
   # queue videos
   #what is iteration?
